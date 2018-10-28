@@ -35,7 +35,7 @@ client.on('message', message => {
 
 
 client.on('ready', () => {
-     client.user.setActivity("اوامر",{type: 'WATCHING'})
+     client.user.setActivity("قريباً",{type: 'WATCHING'})
 
 });
 
@@ -82,32 +82,6 @@ client.on('message', msg => {//msg
 
 
 
-   client.on('ready',async () => {
-setInterval(function(){
-var currentTime = new Date(),
-hours = currentTime.getHours() + 3 ,
-ReBeeL = currentTime.getMinutes(),
-ReBeeeL = currentTime.getSeconds(),
-Codes = currentTime.getFullYear(),
-CodeS = currentTime.getMonth() + 1,
-CoDeS = currentTime.getDate()
-if (ReBeeL < 10) {
-ReBeeL = "0" + ReBeeL;
-}
-var suffix = "AM";
-if (hours >= 12) {
-suffix = "PM";
-hours = hours - 12;
-}
-if (hours == 0) {
-hours = 12;
-}
-client.channels.find('id', '504694668009930753').setName(`Time - ${hours} : ${ReBeeL} : ${ReBeeeL} ${suffix}`) 
-client.channels.find('id', '504694912105840670').setName(`Date : ${Codes} - ${CodeS} - ${CoDeS}`)
-}, 1000);
-});
-
-
 
 
 
@@ -115,20 +89,19 @@ client.channels.find('id', '504694912105840670').setName(`Date : ${Codes} - ${Co
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '504701447212892175').setName("W");
-client.channels.find('id', '504701447212892175').setName("We");
-client.channels.find('id', '504701447212892175').setName("Wel");
-client.channels.find('id', '504701447212892175').setName("Welc");
-client.channels.find('id', '504701447212892175').setName("Welco");
-client.channels.find('id', '504701447212892175').setName("Welcom");
-client.channels.find('id', '504701447212892175').setName("Welcome");
-client.channels.find('id', '504701447212892175').setName("Welcome T");
-client.channels.find('id', '504701447212892175').setName("Welcome To");
-client.channels.find('id', '504701447212892175').setName("Welcome To H");
-client.channels.find('id', '504701447212892175').setName("Welcome To he");
-client.channels.find('id', '504701447212892175').setName("Welcome To her");
-client.channels.find('id', '504701447212892175').setName("Welcome To hero");
-client.channels.find('id', '504701447212892175').setName("Welcome To hero");
+client.channels.find('id', '506118715675246594').setName("T");
+client.channels.find('id', '506118715675246594').setName("Th");
+client.channels.find('id', '506118715675246594').setName("The");
+client.channels.find('id', '506118715675246594').setName("The c");
+client.channels.find('id', '506118715675246594').setName("The co");
+client.channels.find('id', '506118715675246594').setName("The com");
+client.channels.find('id', '506118715675246594').setName("The comm");
+client.channels.find('id', '506118715675246594').setName("The Comma");
+client.channels.find('id', '506118715675246594').setName("The Comman");
+client.channels.find('id', '506118715675246594').setName("The Command");
+client.channels.find('id', '506118715675246594').setName("The Commande");
+client.channels.find('id', '506118715675246594').setName("The Commander");
+client.channels.find('id', '506118715675246594').setName("The Commander");
   }, 3000);
 });
 
@@ -161,8 +134,8 @@ hours = hours - 12;
 if (hours == 0) {
 hours = 12;
 }
-client.channels.find('id', '504700609446936606').setName(`Time - ${hours} : ${ReBeeL} : ${ReBeeeL} ${suffix}`) 
-client.channels.find('id', '504700672382468096').setName(`Date : ${Codes} - ${CodeS} - ${CoDeS}`)
+client.channels.find('id', '506118891643338763').setName(`Time - ${hours} : ${ReBeeL} : ${ReBeeeL} ${suffix}`) 
+client.channels.find('id', '506118986619027457').setName(`Date : ${Codes} - ${CodeS} - ${CoDeS}`)
 }, 1000);
 });
 
