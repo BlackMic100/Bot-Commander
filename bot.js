@@ -89,19 +89,19 @@ client.on('message', msg => {//msg
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '506118715675246594').setName("T");
-client.channels.find('id', '506118715675246594').setName("Th");
-client.channels.find('id', '506118715675246594').setName("The");
-client.channels.find('id', '506118715675246594').setName("The c");
-client.channels.find('id', '506118715675246594').setName("The co");
-client.channels.find('id', '506118715675246594').setName("The com");
-client.channels.find('id', '506118715675246594').setName("The comm");
-client.channels.find('id', '506118715675246594').setName("The Comma");
-client.channels.find('id', '506118715675246594').setName("The Comman");
-client.channels.find('id', '506118715675246594').setName("The Command");
-client.channels.find('id', '506118715675246594').setName("The Commande");
-client.channels.find('id', '506118715675246594').setName("The Commander");
-client.channels.find('id', '506118715675246594').setName("The Commander");
+client.channels.find('id', '508689120336543745').setName("T");
+client.channels.find('id', '508689120336543745').setName("Th");
+client.channels.find('id', '508689120336543745').setName("The");
+client.channels.find('id', '508689120336543745').setName("The c");
+client.channels.find('id', '508689120336543745').setName("The co");
+client.channels.find('id', '508689120336543745').setName("The com");
+client.channels.find('id', '508689120336543745').setName("The comm");
+client.channels.find('id', '508689120336543745').setName("The Comma");
+client.channels.find('id', '508689120336543745').setName("The Comman");
+client.channels.find('id', '508689120336543745').setName("The Command");
+client.channels.find('id', '508689120336543745').setName("The Commande");
+client.channels.find('id', '508689120336543745').setName("The Commander");
+client.channels.find('id', '508689120336543745').setName("The Commander");
   }, 3000);
 });
 
@@ -134,8 +134,8 @@ hours = hours - 12;
 if (hours == 0) {
 hours = 12;
 }
-client.channels.find('id', '506118891643338763').setName(`Time - ${hours} : ${ReBeeL} : ${ReBeeeL} ${suffix}`) 
-client.channels.find('id', '506118986619027457').setName(`Date : ${Codes} - ${CodeS} - ${CoDeS}`)
+client.channels.find('id', '508689012559446016').setName(`Time - ${hours} : ${ReBeeL} : ${ReBeeeL} ${suffix}`) 
+client.channels.find('id', '508689063348273183').setName(`Date : ${Codes} - ${CodeS} - ${CoDeS}`)
 }, 1000);
 });
 
